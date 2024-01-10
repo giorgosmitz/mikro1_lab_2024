@@ -10,7 +10,7 @@
    - ΜΕΓΕΘΟΣ ΜΝΗΜΗΣ = 2GB
 3. ΑΠΟ ΤΑ CONFIG.INI CONFIG.JSON STATS.TXT ΕΠΑΛΗΘΕΥΣΗ ΤΑ ΠΑΝΩ
    - ΤΥΠΟΣ CPU
-      
+      ![CPU TYPE](/cpu_type.png)
 5. ΤΙ ΕΙΝΑΙ ΤΑ SIM_SECONDS,SIM_INSTS,HOST_INST_RATE
 6. ΤΟ ΣΥΝΟΛΙΚΟ ΝΟΥΜΕΡΟ ΤΩΝ COMMITED ΕΝΤΟΛΩΝ
 7. ΠΟΣΕΣ ΦΟΡΕΣ ΠΡΟΣΠΕΛΑΣΤΗΚΕ Η L2 CACHE
