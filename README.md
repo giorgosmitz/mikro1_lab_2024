@@ -29,8 +29,10 @@
     - Εκτελούμε το απλό πρόγραμμα της πρόσθεσης δύο αριθμών με τα μοντέλα MinorCPU και TimingSimple CPU
     - ![C program addition](/simple_addition.png)
 15. ΤΟΥΣ ΧΡΟΝΟΥΣ ΕΚΤΕΛΕΣΗΣ ΤΟΥ
-16. ΕΞΗΓΗΣΗ ΑΝ ΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΔΙΑΦΕΡΟΥΝ Ή ΑΝ ΕΙΝΑΙ ΟΜΟΙΑ
-17. ΤΟ STATS.TXT ΑΝ ΑΛΛΑΞΟΥΜΕ ΣΥΧΝΟΤΗΤΑ ΕΠΕΞΕΡΓΑΣΤΗ ΚΑΙ ΜΝΗΜΗ
+    - Minor ![minor_addition](/minor_addition.png)
+    - Timing ![timing_addition](/timing_addition.png)
+17. ΕΞΗΓΗΣΗ ΑΝ ΤΑ ΑΠΟΤΕΛΕΣΜΑΤΑ ΔΙΑΦΕΡΟΥΝ Ή ΑΝ ΕΙΝΑΙ ΟΜΟΙΑ
+18. ΤΟ STATS.TXT ΑΝ ΑΛΛΑΞΟΥΜΕ ΣΥΧΝΟΤΗΤΑ ΕΠΕΞΕΡΓΑΣΤΗ ΚΑΙ ΜΝΗΜΗ
 ## ΜΕΡΟΣ ΔΕΥΤΕΡΟ
 11. ΓΙΑ ΚΑΘΕ BENCHMARK ΝΑ ΒΡΕΘΟΥΝ ΤΑ ΜΕΓΕΘΗ ΤΩΝ L1 INSTRUCTION, L1 DATA CACHES , L2 CACHE ΤΑ ASSOCIATIVITY ΚΑΘΕ ΜΙΑΣ ΚΑΙ ΤΟ CACHE LINE
 12. ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ
