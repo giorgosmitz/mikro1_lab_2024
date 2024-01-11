@@ -11,6 +11,8 @@
 - ΑΠΟ ΤΑ CONFIG.INI CONFIG.JSON STATS.TXT ΕΠΑΛΗΘΕΥΣΗ ΤΑ ΠΑΝΩ
    - ΤΥΠΟΣ CPU
       ![CPU TYPE](/cpu_type.png)
+   - ΣΥΧΝΟΤΗΤΑ ΛΕΙΤΟΥΡΓΙΑΣ
+      ![FREQ]
 5. ΤΙ ΕΙΝΑΙ ΤΑ SIM_SECONDS,SIM_INSTS,HOST_INST_RATE
    - Το sim_seconds είναι ο αριθμός δευτερολέπτων που έγινε προσομοίωση = 0.000035 sec
    - Το sim_insts είναι ο αριθμός εντολών που έγινε προσομοίωση = 5027
