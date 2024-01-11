@@ -34,7 +34,9 @@
     - Minor ![minor_addition](/minor_addition.png)
     - Timing ![timing_addition](/timing_addition.png)
 - Βλέπουμε ότι για TimingSimpleCPU έκανε περισσότερο χρόνο να εκτελεστεί αφού χρησιμοποιεί αναλυτική πρόσβαση μνήμης. Βλέπουμε ότι ο αριθμός των εντολών που εκτελέστηκαν είναι σχετικά κοντά (10100 και 10159), ενώ ο ρυθμός προσομοίωσης εντολών διαφέρει πολύ με τον TimingSimpleCPU να έχει μεγαλύτερο ρυθμό (162593 έναντι 679008)
-- ΤΟ STATS.TXT ΑΝ ΑΛΛΑΞΟΥΜΕ ΣΥΧΝΟΤΗΤΑ ΕΠΕΞΕΡΓΑΣΤΗ ΚΑΙ ΜΝΗΜΗ
+- Αλλάζοντας τη συχνότητα του επεξεργαστή απο 1GHZ σε 2GHZ έχουμε και για τα δύο μοντέλα:
+     -MinorCPU με 2GHz![minor 2ghz](/minor_2ghz.png)
+     -TimingCPU με 2GHz![timing_2ghz](/timing_2ghz.png)
 ## ΜΕΡΟΣ ΔΕΥΤΕΡΟ
 - ΓΙΑ ΚΑΘΕ BENCHMARK ΝΑ ΒΡΕΘΟΥΝ ΤΑ ΜΕΓΕΘΗ ΤΩΝ L1 INSTRUCTION, L1 DATA CACHES , L2 CACHE ΤΑ ASSOCIATIVITY ΚΑΘΕ ΜΙΑΣ ΚΑΙ ΤΟ CACHE LINE
 - ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ
