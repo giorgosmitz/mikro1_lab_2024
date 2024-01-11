@@ -12,7 +12,7 @@
    - ΤΥΠΟΣ CPU
       ![CPU TYPE](/cpu_type.png)
    - ΣΥΧΝΟΤΗΤΑ ΛΕΙΤΟΥΡΓΙΑΣ
-      ![FREQ]
+      ![FREQ](/sim_freq.png)
 5. ΤΙ ΕΙΝΑΙ ΤΑ SIM_SECONDS,SIM_INSTS,HOST_INST_RATE
    - Το sim_seconds είναι ο αριθμός δευτερολέπτων που έγινε προσομοίωση = 0.000035 sec
    - Το sim_insts είναι ο αριθμός εντολών που έγινε προσομοίωση = 5027
