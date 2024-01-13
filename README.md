@@ -90,6 +90,38 @@
   | L2 ASSOC | 8 |
   | CACHE LINE | 64 |
 - ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ
+- specbzip
+  | Stats (specbzip) | Size |
+  | ----- | ---- |
+  | sim_seconds | 0.083982 |
+  | cpi | 1.679647 |
+  | L1D miss rate | 0.014798 |
+  | L1I miss rate | 0.000077 |
+  | L2 miss rate | 0.282162 |
+- speclibm
+  | Stats (speclibm) | Size |
+  | ----- | ---- |
+  | sim_seconds | 0.174671 |
+  | cpi | 3.493414 |
+  | L1D miss rate | 0.060972 |
+  | L1I miss rate | 0.000094 |
+  | L2 miss rate | 0.999944 |
+- specmcf
+  | Stats (specmcf) | Size |
+  | ----- | ---- |
+  | sim_seconds | 0.064911 |
+  | cpi | 1.298214 |
+  | L1D miss rate | 0.002159 |
+  | L1I miss rate | 0.023612 |
+  | L2 miss rate | 0.055047 |
+- specsjeng
+  | Stats (specsjeng) | Size |
+  | ----- | ---- |
+  | sim_seconds | 0.513529 |
+  | cpi | 10.270527 |
+  | L1D miss rate | 0.121832 |
+  | L1I miss rate | 0.000020 |
+  | L2 miss rate | 0.999964 |
 - ΞΑΝΑ ΤΑ BENCHMARKS ΓΙΑ 1GHZ ΚΑΙ 3GHZ ΚΑΙ ΕΝΤΟΠΙΣΤΕ ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΤΟ ΡΟΛΟΙ, ΠΙΟ ΑΠΟ ΤΑ SYSTEM.CLK_DOMAIN.CLOCK KAI CPU_CLUSTER.CLK_DOMAIN.CLOCK ΧΡΟΝΙΖΕΤΑΙ ΣΕ ΤΙ ΣΥΧΝΟΤΗΤΑ. ΥΠΑΡΧΕΙ ΤΕΛΕΙΟ SCALING?
 - ΞΑΝΑ ΤΑ BENCHMARKS ΓΙΑ ΜΝΗΜΗ DDR3_1600_8x8 ΚΑΙ ΓΙΑ DDR3_2133_8x8. ΤΙ ΠΑΡΑΤΗΡΕΙΤΑΙ?
 - ΒΡΕΙΤΕ ΤΟΝ ΚΑΛΥΤΕΡΟ ΣΥΝΔΥΑΣΜΟ ΜΕ ΒΑΣΗ ΤΑ ΠΡΟΗΓΟΥΜΕΝΑ Ή ΤΑ BENCHMARKS ΩΣΤΕ CPI ΚΟΝΤΑ ΣΤΟ 1
