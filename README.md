@@ -39,6 +39,15 @@
      - TimingCPU με 2GHz![timing_2ghz](/timing_2ghz.png)
 ## ΜΕΡΟΣ ΔΕΥΤΕΡΟ
 - ΓΙΑ ΚΑΘΕ BENCHMARK ΝΑ ΒΡΕΘΟΥΝ ΤΑ ΜΕΓΕΘΗ ΤΩΝ L1 INSTRUCTION, L1 DATA CACHES , L2 CACHE ΤΑ ASSOCIATIVITY ΚΑΘΕ ΜΙΑΣ ΚΑΙ ΤΟ CACHE LINE
+- | Stats | Size |
+  | ----- | ---- |
+  | L1I | 4kB |
+  | L1D | 8kB |
+  | L2 | 256kB |
+  | L1I ASSOC | 2 |
+  | L1D ASSOC | 2 |
+  | L2 ASSOC | 8 |
+  | CACHE LINE | 64 |
 - ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ
 - ΞΑΝΑ ΤΑ BENCHMARKS ΓΙΑ 1GHZ ΚΑΙ 3GHZ ΚΑΙ ΕΝΤΟΠΙΣΤΕ ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΤΟ ΡΟΛΟΙ, ΠΙΟ ΑΠΟ ΤΑ SYSTEM.CLK_DOMAIN.CLOCK KAI CPU_CLUSTER.CLK_DOMAIN.CLOCK ΧΡΟΝΙΖΕΤΑΙ ΣΕ ΤΙ ΣΥΧΝΟΤΗΤΑ. ΥΠΑΡΧΕΙ ΤΕΛΕΙΟ SCALING?
 - ΞΑΝΑ ΤΑ BENCHMARKS ΓΙΑ ΜΝΗΜΗ DDR3_1600_8x8 ΚΑΙ ΓΙΑ DDR3_2133_8x8. ΤΙ ΠΑΡΑΤΗΡΕΙΤΑΙ?
