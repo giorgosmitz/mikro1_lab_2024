@@ -39,8 +39,7 @@
      - TimingCPU με 2GHz![timing_2ghz](/timing_2ghz.png)
 ## ΜΕΡΟΣ ΔΕΥΤΕΡΟ
 - ΓΙΑ ΚΑΘΕ BENCHMARK ΝΑ ΒΡΕΘΟΥΝ ΤΑ ΜΕΓΕΘΗ ΤΩΝ L1 INSTRUCTION, L1 DATA CACHES , L2 CACHE ΤΑ ASSOCIATIVITY ΚΑΘΕ ΜΙΑΣ ΚΑΙ ΤΟ CACHE LINE
-     - specbzip
-  | Stats | Size |
+  | Stats (specbzip) | Size |
   | ----- | ---- |
   | L1I | 4kB |
   | L1D | 8kB |
