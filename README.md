@@ -126,7 +126,14 @@
 - ΤΟ STATS.TXT ΓΙΑ ΤΟ BENCHMARK SPECHMMER ΓΙΑ ΜΝΗΜΗ DDR3_1600_8x8 ΚΑΙ ΓΙΑ DDR3_2133_8x8
    - DDR3_1600_8x8 ![ddr3_1600](/ddr3_1600.png)
    - DDR3_2133_8x8 ![ddr3_2133](/ddr3_2133.png)
-- ΒΡΕΙΤΕ ΤΟΝ ΚΑΛΥΤΕΡΟ ΣΥΝΔΥΑΣΜΟ ΜΕ ΒΑΣΗ ΤΑ ΠΡΟΗΓΟΥΜΕΝΑ Ή ΤΑ BENCHMARKS ΩΣΤΕ CPI ΚΟΝΤΑ ΣΤΟ 1
-- ΠΡΟΣΠΑΘΗΣΑ ΝΑ ΒΡΩ ΤΟΝ ΚΑΛΥΤΕΡΟ ΣΥΝΔΥΑΣΜΟ ΓΙΑ ΝΑ ΦΕΡΩ ΤΟ CPI ΚΟΝΤΑ ΣΤΟ 1 ΓΙΑ ΤΟ BENCHMARK specsjeng (ΛΟΓΩ ΕΛΛΕΙΨΗΣ ΧΡΟΝΟΥ) ΓΙΑΤΙ ΠΑΡΑΤΗΡΗΣΑ ΟΤΙ ΕΙΧΕ ΤΟ ΜΕΓΑΛΥΤΕΡΟ CPI
+- ΠΡΟΣΠΑΘΗΣΑ ΝΑ ΒΡΩ ΤΟΝ ΚΑΛΥΤΕΡΟ ΣΥΝΔΥΑΣΜΟ ΓΙΑ ΝΑ ΦΕΡΩ ΤΟ CPI ΚΟΝΤΑ ΣΤΟ 1 ΓΙΑ ΤΟ BENCHMARK specsjeng (ΛΟΓΩ ΕΛΛΕΙΨΗΣ ΧΡΟΝΟΥ) ΓΙΑΤΙ ΠΑΡΑΤΗΡΗΣΑ ΟΤΙ ΕΙΧΕ ΤΟ ΜΕΓΑΛΥΤΕΡΟ CPI, ΚΑΝΟΝΤΑΣ 5 ΔΟΚΙΜΕΣ
+  | Test_0 (CPI=4.266612) | SIZE | Test_1 (CPI=4.259263) | SIZE | Test_2 (CPI=4.256306) | SIZE | Test_3 (CPI=4.094511) | SIZE | Test_4 (CPI=4.252037) | SIZE |
+  | ------ | --- | ------ | --- | ------ | --- | ------ | --- | ------ | --- |
+  | icache_size | 4kB | icache_size | 16kB | icache_size | 8kB | icache_size | 16kB | icache_size | 4kB |
+  | dcache_size | 4kB | dcache_size | 8kB | dcache_size | 16kB | dcache_size | 16kB | dcache_size | 16kB |
+  | icache_assoc | 1 | icache_assoc | 1 | icache_assoc | 1 | icache_assoc | 2 | icache_assoc | 1 |
+  | dcache_assoc | 1 | dcache_assoc | 1 | dcache_assoc | 1 | dcache_assoc | 2 | dcache_assoc | 1 |
+  | l2cache_size | 32kB | l2cache_size | 64kB | l2cache_size | 64kB | l2cache_size | 16kB | l2cache_size | 128kB |
+  | l2cache_assoc | 2 | l2cache_assoc | 2 | l2cache_assoc | 2 | l2cache_assoc | 8 | l2cache_assoc | 2 |
 - ΓΡΑΦΗΜΑΤΑ ΜΕ ΤΗΝ ΕΠΙΔΡΑΣΗ ΚΑΘΕ ΠΑΡΑΓΟΝΤΑ ΣΤΟ CPI
 - ΣΧΕΣΗ ΚΟΣΤΟΥΣ ΑΠΟΔΟΣΗΣ
