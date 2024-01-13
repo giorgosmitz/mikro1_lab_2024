@@ -39,7 +39,48 @@
      - TimingCPU με 2GHz![timing_2ghz](/timing_2ghz.png)
 ## ΜΕΡΟΣ ΔΕΥΤΕΡΟ
 - ΓΙΑ ΚΑΘΕ BENCHMARK ΝΑ ΒΡΕΘΟΥΝ ΤΑ ΜΕΓΕΘΗ ΤΩΝ L1 INSTRUCTION, L1 DATA CACHES , L2 CACHE ΤΑ ASSOCIATIVITY ΚΑΘΕ ΜΙΑΣ ΚΑΙ ΤΟ CACHE LINE
+- specbzip
   | Stats (specbzip) | Size |
+  | ----- | ---- |
+  | L1I | 4kB |
+  | L1D | 8kB |
+  | L2 | 256kB |
+  | L1I ASSOC | 2 |
+  | L1D ASSOC | 2 |
+  | L2 ASSOC | 8 |
+  | CACHE LINE | 64 |
+- spechmmer
+  | Stats (spechmmer) | Size |
+  | ----- | ---- |
+  | L1I | 4kB |
+  | L1D | 8kB |
+  | L2 | 256kB |
+  | L1I ASSOC | 2 |
+  | L1D ASSOC | 2 |
+  | L2 ASSOC | 8 |
+  | CACHE LINE | 64 |
+- speclibm
+  | Stats (speclibm) | Size |
+  | ----- | ---- |
+  | L1I | 4kB |
+  | L1D | 8kB |
+  | L2 | 256kB |
+  | L1I ASSOC | 2 |
+  | L1D ASSOC | 2 |
+  | L2 ASSOC | 8 |
+  | CACHE LINE | 64 |
+- specmcf
+  | Stats (specmcf) | Size |
+  | ----- | ---- |
+  | L1I | 4kB |
+  | L1D | 8kB |
+  | L2 | 256kB |
+  | L1I ASSOC | 2 |
+  | L1D ASSOC | 2 |
+  | L2 ASSOC | 8 |
+  | CACHE LINE | 64 |
+- specsjeng
+  | Stats (specsjeng) | Size |
   | ----- | ---- |
   | L1I | 4kB |
   | L1D | 8kB |
