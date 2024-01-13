@@ -90,6 +90,10 @@
   | L2 ASSOC | 8 |
   | CACHE LINE | 64 |
 - ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ (το spechmmer δεν κράτησε κάτι το stats.txt και δε πρόλαβα να το ξανατρέξω)
+- CPI: ![CPI](/cpi.png)
+- L1D Miss rate: ![CPI](/l1d.png)
+- L1I Miss rate: ![CPI](/l1i.png)
+- L2 Miss rate: ![CPI](/l2.png)
 - specbzip
   | Stats (specbzip) | Size |
   | ----- | ---- |
