@@ -89,7 +89,7 @@
   | L1D ASSOC | 2 |
   | L2 ASSOC | 8 |
   | CACHE LINE | 64 |
-- ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ
+- ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ (το spechmmer δεν κράτησε κάτι το stats.txt και δε πρόλαβα να το ξανατρέξω)
 - specbzip
   | Stats (specbzip) | Size |
   | ----- | ---- |
@@ -122,8 +122,10 @@
   | L1D miss rate | 0.121832 |
   | L1I miss rate | 0.000020 |
   | L2 miss rate | 0.999964 |
-- ΞΑΝΑ ΤΑ BENCHMARKS ΓΙΑ 1GHZ ΚΑΙ 3GHZ ΚΑΙ ΕΝΤΟΠΙΣΤΕ ΠΛΗΡΟΦΟΡΙΕΣ ΓΙΑ ΤΟ ΡΟΛΟΙ, ΠΙΟ ΑΠΟ ΤΑ SYSTEM.CLK_DOMAIN.CLOCK KAI CPU_CLUSTER.CLK_DOMAIN.CLOCK ΧΡΟΝΙΖΕΤΑΙ ΣΕ ΤΙ ΣΥΧΝΟΤΗΤΑ. ΥΠΑΡΧΕΙ ΤΕΛΕΙΟ SCALING?
-- ΞΑΝΑ ΤΑ BENCHMARKS ΓΙΑ ΜΝΗΜΗ DDR3_1600_8x8 ΚΑΙ ΓΙΑ DDR3_2133_8x8. ΤΙ ΠΑΡΑΤΗΡΕΙΤΑΙ?
+- Κοιτώντας τα αρχεία config.json για κάθε benchmark βλέπουμε ότι το system.clk_domain.clock χρονίζεται ανεξάρτητα του ορίσματος στα 1GHz πάντα, ενώ το cpu_cluster.clk_domain.clock χρονίζεται σύμφωνα με το όρισμα που δώσαμε κάθε φορά.
+- ΤΟ STATS.TXT ΓΙΑ ΤΟ BENCHMARK SPECHMMER ΓΙΑ ΜΝΗΜΗ DDR3_1600_8x8 ΚΑΙ ΓΙΑ DDR3_2133_8x8
+   -DDR3_1600_8x8 ![ddr3_1600](/ddr3_1600.png)
+   -DDR3_2133_8x8 ![ddr3_2133](/ddr3_2133.png)
 - ΒΡΕΙΤΕ ΤΟΝ ΚΑΛΥΤΕΡΟ ΣΥΝΔΥΑΣΜΟ ΜΕ ΒΑΣΗ ΤΑ ΠΡΟΗΓΟΥΜΕΝΑ Ή ΤΑ BENCHMARKS ΩΣΤΕ CPI ΚΟΝΤΑ ΣΤΟ 1
 - ΓΡΑΦΗΜΑΤΑ ΜΕ ΤΗΝ ΕΠΙΔΡΑΣΗ ΚΑΘΕ ΠΑΡΑΓΟΝΤΑ ΣΤΟ CPI
 - ΣΧΕΣΗ ΚΟΣΤΟΥΣ ΑΠΟΔΟΣΗΣ
