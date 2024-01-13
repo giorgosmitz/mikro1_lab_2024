@@ -91,9 +91,9 @@
   | CACHE LINE | 64 |
 - ΑΠΟ ΚΑΘΕ BENCHMARK ΚΡΑΤΗΣΤΕ ΧΡΟΝΟ ΕΚΤΕΛΕΣΗΣ, CPI, MISSRATES ΓΙΑ L1 DATA, L1 INSTRUCTION ΚΑΙ L2 CACHE ΚΑΙ ΓΡΑΦΗΜΑΤΑ (το spechmmer δεν κράτησε κάτι το stats.txt και δε πρόλαβα να το ξανατρέξω)
 - CPI: ![CPI](/cpi.png)
-- L1D Miss rate: ![CPI](/l1d.png)
-- L1I Miss rate: ![CPI](/l1i.png)
-- L2 Miss rate: ![CPI](/l2.png)
+- L1D Miss rate: ![L1D](/l1d.png)
+- L1I Miss rate: ![L1I](/l1i.png)
+- L2 Miss rate: ![L2](/l2.png)
 - specbzip
   | Stats (specbzip) | Size |
   | ----- | ---- |
@@ -140,4 +140,9 @@
   | l2cache_size | 32kB | l2cache_size | 64kB | l2cache_size | 64kB | l2cache_size | 16kB | l2cache_size | 128kB |
   | l2cache_assoc | 2 | l2cache_assoc | 2 | l2cache_assoc | 2 | l2cache_assoc | 8 | l2cache_assoc | 2 |
 - ΓΡΑΦΗΜΑΤΑ ΜΕ ΤΗΝ ΕΠΙΔΡΑΣΗ ΚΑΘΕ ΠΑΡΑΓΟΝΤΑ ΣΤΟ CPI
+- TEST_0: ![TEST0](/specsjeng_0.png)
+- TEST_1: ![TEST1](/specsjeng_1.png)
+- TEST_2: ![TEST2](/specsjeng_2.png)
+- TEST_3: ![TEST3](/specsjeng_3.png)
+- TEST_4: ![TEST4](/specsjeng_4.png)
 - ΣΧΕΣΗ ΚΟΣΤΟΥΣ ΑΠΟΔΟΣΗΣ
